@@ -5,23 +5,39 @@
 ## Description
 The EGA model identifies ethnicity, gender and age of people from images of cropped faces. It aims to be used on top of face detection and alignment tools such as [OpenCV, Dlib](https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/) or [MTCNN](https://towardsdatascience.com/face-detection-using-mtcnn-a-guide-for-face-extraction-with-a-focus-on-speed-c6d59f82d49) in a 2 stage pipeline for "in the wild" applications. 
 
+# Content
+- [Model Prediction Examples](##Model-Prediction-Examples)
+- [Motivation](##Motivation)
+- [Model use case](##Model-use-case)
+- [Model Performance Preview](##Model-Performance-Preview)
+   - [Gender model](###Gender-model)
+   - [Age model](###Age-model)
+   - [Ethnicity model](###Ethnicity-model)
+- [Why Multi Task Learning?](##Why-Multi-Task-Learning?)
+- [Why Transfer Learning?](##Why-Transfer-Learning?)
+- [Interesting Facts](##Interesting-Facts)
+- [Future Ideas and Improvements](##Future-Ideas-and-Improvements)
+- [Resources and Inspiration](##Resources-and-Inspiration)
+- [Model architecture](##Model-architecture)
+
+
 ## Model Prediction Examples
 
-<img src="model_showcase/showcase_1.png"  width="300" height="300">
-<img src="model_showcase/showcase_2.png"  width="300" height="300">
-<img src="model_showcase/showcase_3.png"  width="300" height="300">
-<img src="model_showcase/showcase_4.png"  width="300" height="300">
-<img src="model_showcase/showcase_5.png"  width="300" height="300">
-<img src="model_showcase/showcase_6.png"  width="300" height="300">
-<img src="model_showcase/showcase_7.png"  width="300" height="300">
-<img src="model_showcase/showcase_8.png"  width="300" height="300">
-<img src="model_showcase/showcase_9.png"  width="300" height="300">
-<img src="model_showcase/showcase_10.png"  width="300" height="300">
-<img src="model_showcase/showcase_11.png"  width="300" height="300">
-<img src="model_showcase/showcase_12.png"  width="300" height="300">
-<img src="model_showcase/showcase_13.png"  width="300" height="300">
-<img src="model_showcase/showcase_14.png"  width="300" height="300">
-<img src="model_showcase/showcase_15.png"  width="300" height="300">
+<img src="model_showcase/showcase_1.png"  width="270" height="270">
+<img src="model_showcase/showcase_2.png"  width="270" height="270">
+<img src="model_showcase/showcase_3.png"  width="270" height="270">
+<img src="model_showcase/showcase_4.png"  width="270" height="270">
+<img src="model_showcase/showcase_5.png"  width="270" height="270">
+<img src="model_showcase/showcase_6.png"  width="270" height="270">
+<img src="model_showcase/showcase_7.png"  width="270" height="270">
+<img src="model_showcase/showcase_8.png"  width="270" height="270">
+<img src="model_showcase/showcase_9.png"  width="270" height="270">
+<img src="model_showcase/showcase_10.png"  width="270" height="270">
+<img src="model_showcase/showcase_11.png"  width="270" height="270">
+<img src="model_showcase/showcase_12.png"  width="270" height="270">
+<img src="model_showcase/showcase_13.png"  width="270" height="270">
+<img src="model_showcase/showcase_14.png"  width="270" height="270">
+<img src="model_showcase/showcase_15.png"  width="270" height="270">
 
 see more in `/model_showcase`
 
@@ -146,7 +162,7 @@ More data is always better, however in a data scarcity scenario Transfer Learnin
 The [UTK Face](https://susanqq.github.io/UTKFace/) dataset used for this model does not have enough data to match EGA model complexity. Therefore I have used pretrained weights from the VGG Face model on top of which I have built the 3 models with Dense layers. The VGG Face is an even deeper model of DeepFace trained on millions of images and originally used for face detection.
 See model architecture.
 
-## Interesting fact 
+## Interesting Facts 
 While trying out multiple image augmentation parameters in [ImageGenerator](https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator), I have noticed that when setting `[sheer_range=45]`, the model misclassified all Asian ethnicity labels as White. In the same time, when `[channel_shift_range=150]` or `[brightness_range=(0.1,0.9)]` the model misclassified all Indian and Black ethnicity labels as White.
 
 
@@ -154,7 +170,7 @@ While trying out multiple image augmentation parameters in [ImageGenerator](http
 From the 3 EGA model predictions, age is the least accurate and toughest to predict. Perhaps a better approach for age prediction would be to predict a range, rather than the actual age. Such model could be done using a [Tensorflow Probabilistic Layer](https://blog.tensorflow.org/2019/03/regression-with-probabilistic-layers-in.html) as the last layer in the age model. This way, the model will output a mean and standard deviation for each prediction. Using the 2 variables, a 95% confidence interval can be calculated as a final prediction. I have actually tried this option, however in most cases the confidence interval was too great, 30-50 years. Perhaps a different approach in the model architecture might work out better. 
 
 
-## Resources and inspiration
+## Resources and Inspiration
 * [Deep Age](https://www.researchgate.net/publication/335065216_DeepAge_Deep_Learning_of_face-based_age_estimation)
 * [Deep Face](https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf)
 * [VGG-Face](https://www.robots.ox.ac.uk/~vgg/software/vgg_face/) 
