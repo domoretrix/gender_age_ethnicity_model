@@ -25,91 +25,91 @@ The EGA model identifies ethnicity, gender and age of people from images of crop
 
 <table style="border-collapse: collapse">
    <tr> 
-      <td style="min-width: 280px; padding:0px">
-         <img src="model_showcase/showcase_1.png"  width="280" height="280"> 
+      <td style="min-width: 300px; padding:0px">
+         <img src="model_showcase/showcase_1.png"  width="300" height="300"> 
       </td>
-      <td  style="min-width: 280px; padding:0px">
-         <img src="model_showcase/showcase_2.png"  width="280" height="280"> 
+      <td  style="min-width: 300px; padding:0px">
+         <img src="model_showcase/showcase_2.png"  width="300" height="300"> 
       </td>
-      <td  style="min-width: 280px; padding:0px">
-         <img src="model_showcase/showcase_3.png"  width="280" height="280"> 
-      </td>
-   </tr>
-   <tr>
-      <td style="min-width: 280px; padding: 0px;">
-         <img src="model_showcase/showcase_4.png"  width="280" height="280"> 
-      </td>
-      <td  style="min-width: 280px; padding:0px">
-         <img src="model_showcase/showcase_5.png"  width="280" height="280"> 
-      </td>
-      <td  style="min-width: 280px; padding:0px">
-         <img src="model_showcase/showcase_6.png"  width="280" height="280"> 
+      <td  style="min-width: 300px; padding:0px">
+         <img src="model_showcase/showcase_3.png"  width="300" height="300"> 
       </td>
    </tr>
    <tr>
-      <td style="min-width: 280px; padding:0px">
-         <img src="model_showcase/showcase_7.png"  width="280" height="280"> 
+      <td style="min-width: 300px; padding: 0px;">
+         <img src="model_showcase/showcase_4.png"  width="300" height="300"> 
       </td>
-      <td  style="min-width: 280px; padding:0px">
-         <img src="model_showcase/showcase_8.png"  width="280" height="280"> 
+      <td  style="min-width: 300px; padding:0px">
+         <img src="model_showcase/showcase_5.png"  width="300" height="300"> 
       </td>
-      <td  style="min-width: 280px; padding:0px">
-         <img src="model_showcase/showcase_9.png"  width="280" height="280"> 
-      </td>
-   </tr>
-   <tr>
-      <td style="min-width: 280px; padding:0px">
-         <img src="model_showcase/showcase_10.png"  width="280" height="280"> 
-      </td>
-      <td  style="min-width: 280px; padding:0px">
-         <img src="model_showcase/showcase_11.png"  width="280" height="280"> 
-      </td>
-      <td  style="min-width: 280px; padding:0px">
-         <img src="model_showcase/showcase_12.png"  width="280" height="280"> 
+      <td  style="min-width: 300px; padding:0px">
+         <img src="model_showcase/showcase_6.png"  width="300" height="300"> 
       </td>
    </tr>
    <tr>
-      <td style="min-width: 280px; padding:0px">
-         <img src="model_showcase/showcase_13.png"  width="280" height="280"> 
+      <td style="min-width: 300px; padding:0px">
+         <img src="model_showcase/showcase_7.png"  width="300" height="300"> 
       </td>
-      <td  style="min-width: 280px; padding:0px">
-         <img src="model_showcase/showcase_14.png"  width="280" height="280"> 
+      <td  style="min-width: 300px; padding:0px">
+         <img src="model_showcase/showcase_8.png"  width="300" height="300"> 
       </td>
-      <td  style="min-width: 280px; padding:0px">
-         <img src="model_showcase/showcase_15.png"  width="280" height="280"> 
-      </td>
-   </tr>
-   <tr>
-      <td style="min-width: 280px; padding:0px">
-         <img src="model_showcase/showcase_16.png"  width="280" height="280"> 
-      </td>
-      <td  style="min-width: 280px; padding:0px">
-         <img src="model_showcase/showcase_17.png"  width="280" height="280"> 
-      </td>
-      <td  style="min-width: 280px; padding:0px">
-         <img src="model_showcase/showcase_18.png"  width="280" height="280"> 
+      <td  style="min-width: 300px; padding:0px">
+         <img src="model_showcase/showcase_9.png"  width="300" height="300"> 
       </td>
    </tr>
    <tr>
-      <td style="min-width: 280px; padding:0px">
-         <img src="model_showcase/showcase_19.png"  width="280" height="280"> 
+      <td style="min-width: 300px; padding:0px">
+         <img src="model_showcase/showcase_10.png"  width="300" height="300"> 
       </td>
-      <td  style="min-width: 280px; padding:0px">
-         <img src="model_showcase/showcase_20.png"  width="280" height="280"> 
+      <td  style="min-width: 300px; padding:0px">
+         <img src="model_showcase/showcase_11.png"  width="300" height="300"> 
       </td>
-      <td  style="min-width: 280px; padding:0px">
-         <img src="model_showcase/showcase_21.png"  width="280" height="280"> 
+      <td  style="min-width: 300px; padding:0px">
+         <img src="model_showcase/showcase_12.png"  width="300" height="300"> 
       </td>
    </tr>
    <tr>
-      <td style="min-width: 280px; padding:0px">
-         <img src="model_showcase/showcase_22.png"  width="280" height="280"> 
+      <td style="min-width: 300px; padding:0px">
+         <img src="model_showcase/showcase_13.png"  width="300" height="300"> 
       </td>
-      <td  style="min-width: 280px; padding:0px">
-         <img src="model_showcase/showcase_23.png"  width="280" height="280"> 
+      <td  style="min-width: 300px; padding:0px">
+         <img src="model_showcase/showcase_14.png"  width="300" height="300"> 
       </td>
-      <td  style="min-width: 280px; padding:0px">
-         <img src="model_showcase/showcase_24.png"  width="280" height="280"> 
+      <td  style="min-width: 300px; padding:0px">
+         <img src="model_showcase/showcase_15.png"  width="300" height="300"> 
+      </td>
+   </tr>
+   <tr>
+      <td style="min-width: 300px; padding:0px">
+         <img src="model_showcase/showcase_16.png"  width="300" height="300"> 
+      </td>
+      <td  style="min-width: 300px; padding:0px">
+         <img src="model_showcase/showcase_17.png"  width="300" height="300"> 
+      </td>
+      <td  style="min-width: 300px; padding:0px">
+         <img src="model_showcase/showcase_18.png"  width="300" height="300"> 
+      </td>
+   </tr>
+   <tr>
+      <td style="min-width: 300px; padding:0px">
+         <img src="model_showcase/showcase_19.png"  width="300" height="300"> 
+      </td>
+      <td  style="min-width: 300px; padding:0px">
+         <img src="model_showcase/showcase_20.png"  width="300" height="300"> 
+      </td>
+      <td  style="min-width: 300px; padding:0px">
+         <img src="model_showcase/showcase_21.png"  width="300" height="300"> 
+      </td>
+   </tr>
+   <tr>
+      <td style="min-width: 300px; padding:0px">
+         <img src="model_showcase/showcase_22.png"  width="300" height="300"> 
+      </td>
+      <td  style="min-width: 300px; padding:0px">
+         <img src="model_showcase/showcase_23.png"  width="300" height="300"> 
+      </td>
+      <td  style="min-width: 300px; padding:0px">
+         <img src="model_showcase/showcase_24.png"  width="300" height="300"> 
       </td>
    </tr>
 </table>
