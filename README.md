@@ -3,7 +3,7 @@
 
 
 ## Description
-The EGA model identifies ethnicity, gender and age of people from images of cropped faces. It aims to be used on top of face detection and alignment tool such as [OpenCV, Dlib](https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/) or [MTCNN](https://towardsdatascience.com/face-detection-using-mtcnn-a-guide-for-face-extraction-with-a-focus-on-speed-c6d59f82d49) in a 2 stage pipeline for "in the wild" applications. 
+The EGA model identifies ethnicity, gender and age of people from images of cropped faces. It aims to be used on top of face detection and alignment tools such as [OpenCV, Dlib](https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/) or [MTCNN](https://towardsdatascience.com/face-detection-using-mtcnn-a-guide-for-face-extraction-with-a-focus-on-speed-c6d59f82d49) in a 2 stage pipeline for "in the wild" applications. 
 
 ## Model Prediction Examples
 
@@ -32,10 +32,10 @@ From the perspective of someone interested in society and culture, it would be i
 
 ## Model use case
 
-An age, gender and ethnicity prediction model such as this one can have numerous applications, many of them arguably unethical. However, hoping that such a model would be used for good rather than bad, most of its applications would be related to demographic analysis. For instance, given a company or social network that say uses face registration, EGA model can be used to periodically scan users' faces and output entity's demography. 
-With careful consideration to ethics and face anonymization, the same model can also be used to uncover a city's or country's demography, migration trends or patterns by scanning video recordings of street surveillance cameras.
+An age, gender and ethnicity prediction model such as this one can have numerous applications, many of them arguably unethical. However, hoping that such a model would be used for good rather than for bad, most of its applications would be related to demographic analysis. For instance, given a company or social network that say uses face registration, EGA model can be used to periodically scan users' faces and output demographics. 
+With careful consideration to ethics and face anonymization, EGA can also be used to uncover a city's or country's demography, migration trends and patterns by scanning video recordings of street surveillance cameras.
 
-Note: The model was trained on cropped faces. To use the model “in the wild” correctly, it has to be used on top of face detection and alignment tools as a 2 stage pipeline. Some face detection solutions: OpenCV, Dlib or MTCNN.
+Note: The model was trained on cropped faces. To use the EGA “in the wild” correctly, it has to be used on top of face detection and alignment tools, as a 2 stage pipeline. Some face detection solutions are: OpenCV, Dlib or MTCNN.
 
 
 ## Model Performance Preview
