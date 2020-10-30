@@ -23,21 +23,36 @@ The EGA model identifies ethnicity, gender and age of people from images of crop
 
 ## Model Prediction Examples
 
-<img src="model_showcase/showcase_1.png"  width="270" height="270">
-<img src="model_showcase/showcase_2.png"  width="270" height="270">
-<img src="model_showcase/showcase_3.png"  width="270" height="270">
-<img src="model_showcase/showcase_4.png"  width="270" height="270">
-<img src="model_showcase/showcase_5.png"  width="270" height="270">
-<img src="model_showcase/showcase_6.png"  width="270" height="270">
-<img src="model_showcase/showcase_7.png"  width="270" height="270">
-<img src="model_showcase/showcase_8.png"  width="270" height="270">
-<img src="model_showcase/showcase_9.png"  width="270" height="270">
-<img src="model_showcase/showcase_10.png"  width="270" height="270">
-<img src="model_showcase/showcase_11.png"  width="270" height="270">
-<img src="model_showcase/showcase_12.png"  width="270" height="270">
-<img src="model_showcase/showcase_13.png"  width="270" height="270">
-<img src="model_showcase/showcase_14.png"  width="270" height="270">
-<img src="model_showcase/showcase_15.png"  width="270" height="270">
+<table>
+   <tr>
+      <td><img src="model_showcase/showcase_1.png"  width="300" height="300"></td>
+      <td><img src="model_showcase/showcase_1.png"  width="300" height="300"></td>
+  </tr>
+   <tr>
+      <td><img src="model_showcase/showcase_1.png"  width="300" height="300"></td>
+      <td><img src="model_showcase/showcase_1.png"  width="300" height="300"></td>
+  </tr>
+   <tr>
+      <td><img src="model_showcase/showcase_1.png"  width="300" height="300"></td>
+      <td><img src="model_showcase/showcase_1.png"  width="300" height="300"></td>
+  </tr>
+</table>
+
+<img src="model_showcase/showcase_1.png"  width="300" height="300">
+<img src="model_showcase/showcase_2.png"  width="300" height="300">
+<img src="model_showcase/showcase_3.png"  width="300" height="300">
+<img src="model_showcase/showcase_4.png"  width="300" height="300">
+<img src="model_showcase/showcase_5.png"  width="300" height="300">
+<img src="model_showcase/showcase_6.png"  width="300" height="300">
+<img src="model_showcase/showcase_7.png"  width="300" height="300">
+<img src="model_showcase/showcase_8.png"  width="300" height="300">
+<img src="model_showcase/showcase_9.png"  width="300" height="300">
+<img src="model_showcase/showcase_10.png"  width="300" height="300">
+<img src="model_showcase/showcase_11.png"  width="300" height="300">
+<img src="model_showcase/showcase_12.png"  width="300" height="300">
+<img src="model_showcase/showcase_13.png"  width="300" height="300">
+<img src="model_showcase/showcase_14.png"  width="300" height="300">
+<img src="model_showcase/showcase_15.png"  width="300" height="300">
 
 see more in `/model_showcase`
 
